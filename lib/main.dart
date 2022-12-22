@@ -1,7 +1,5 @@
 // ignore_for_file: avoid_print
 
-import 'dart:ffi';
-
 import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
