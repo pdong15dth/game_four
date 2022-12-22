@@ -15,7 +15,12 @@ class Mygame extends FlameGame with HasTappables {
   SpriteComponent background = SpriteComponent();
   SpriteComponent background2 = SpriteComponent();
 
-  TextPaint dialogTextPaint = TextPaint(style: const TextStyle(fontSize: 36));
+  TextPaint dialogTextPaint = TextPaint(
+    style: const TextStyle(
+      fontSize: 36,
+      color: Colors.white,
+    ),
+  );
   DialogButton dialogButton = DialogButton();
   Vector2 buttonSize = Vector2(50, 50);
   int dialogLevel = 0;
